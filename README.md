@@ -5,7 +5,7 @@ Bem-vindo ao meu portfólio! Aqui você encontra uma coleção dos meus principa
 ## 📂 Projetos em Destaque
 
 ### 1. [DevPhone]([link_projeto](https://github.com/PeterAbenza/DevPhone))
-Sistema de gerenciamento para academias, incluindo funcionalidades para cadastro de alunos, acompanhamento de treinos e administração geral.
+O e-commerce de celulares e Smartphones para o dev.
 
 ### 2. [StrongPeople]([link_projeto](https://github.com/PeterAbenza/SistemaAulasSpringBoot))
 Este projeto tem como objetivo principal fornecer uma plataforma eficiente e intuitiva para cadastrar e procurar alunos em uma academia.
