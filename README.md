@@ -4,11 +4,11 @@ Bem-vindo ao meu portfólio! Aqui você encontra uma coleção dos meus principa
 
 ## 📂 Projetos em Destaque
 
-### 1. [StrongPeople](link_projeto)
+### 1. [DevPhone]([link_projeto](https://github.com/PeterAbenza/DevPhone))
 Sistema de gerenciamento para academias, incluindo funcionalidades para cadastro de alunos, acompanhamento de treinos e administração geral.
 
-### 2. [Campo Minado em Java](link_projeto)
-Jogo de campo minado com testes unitários utilizando JUnit. Projetado para reforçar habilidades em Java, boas práticas de codificação e desenvolvimento orientado a testes.
+### 2. [StrongPeople]([link_projeto](https://github.com/PeterAbenza/SistemaAulasSpringBoot))
+Este projeto tem como objetivo principal fornecer uma plataforma eficiente e intuitiva para cadastrar e procurar alunos em uma academia.
 
 ### 3. [Sistema de Login e Registro](link_projeto)
 Sistema simples de autenticação para demonstração de boas práticas em segurança e organização de código.
