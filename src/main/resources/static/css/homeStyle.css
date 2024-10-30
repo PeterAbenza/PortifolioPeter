@@ -70,3 +70,12 @@ h2 {
     fill: #DCDCDC; /* Cor do ícone */
 }
 
+.card-body {
+    background-color: #2C3E3F;
+}
+
+.card-footer {
+    background-color: transparent !important;
+    border: none !important;
+}
+
