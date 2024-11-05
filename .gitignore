@@ -1,5 +1,9 @@
+# Arquivos e diretórios a serem ignorados
+
 HELP.md
 application.properties
+
+# Ignora a pasta target, que é gerada pelo Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
