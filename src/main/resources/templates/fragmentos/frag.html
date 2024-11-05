@@ -21,13 +21,14 @@
 
 			<div id="navMobile"
 				class="navbar-collapse collapse justify-content-end">
-				<a class="btn-nav nav-item nav-link" th:href="@{/}"
-					style="color: #DCDCDC;"><i class="fa fa-home"
-					aria-hidden="true"></i>HOME</a> <a class="btn-nav nav-item nav-link"
-					th:href="@{/CadastrarAluno}" style="color: #DCDCDC;"><i
-					class="fas fa-user-graduate" aria-hidden="true"></i>BLOG</a> <a
-					class="btn-nav nav-item nav-link" th:href="@{/listAlunos}"
-					style="color: #DCDCDC;"><i class="fas fa-search"></i>LIST</a>
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="btn-nav nav-item nav-link"
+						style="color: #DCDCDC;" href="/">HOME</a></li>
+					<li class="nav-item"><a class="btn-nav nav-item nav-link"
+						style="color: #DCDCDC;" href="#contact">CONTACT</a></li>
+					<li class="nav-item"><a class="btn-nav nav-item nav-link"
+						style="color: #DCDCDC;" href="#timeline">TIMELINE</a></li>
+				</ul>
 			</div>
 		</nav>
 	</header>
@@ -56,12 +57,12 @@
 								@peterAbenza </a></li>
 					</ul>
 				</div>
-				<div class="col-md-6" style="color: white;">
+				<div class="col-md-6" style="color: white;" id="contact">
 					<h2>Site map</h2>
 					<ul class="list-unstyled">
-						<li><a href="/">Home</a></li>
-						<li><a href="https://diogotc.com/blog">Blog</a></li>
-						<li><a href="https://diogotc.com/impossiblelist">List</a></li>
+						<li><a href="/">HOME</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+						<li><a href="#timeline">TIMELINE</a></li>
 					</ul>
 				</div>
 			</div>
@@ -70,10 +71,9 @@
 			<div class="container d-flex justify-content-between">
 				<p class="copyright-text mb-0">&copy; 2024-2024 Peter Abenza</p>
 				<p class="mb-0">
-					<a href="https://github.com/PeterAbenza/Portif-lio"
-						target="_blank" rel="noopener"
-						data-umami-event="source-code-footer" class="text-light">
-						Website Source Code </a>
+					<a href="https://github.com/PeterAbenza/Portif-lio" target="_blank"
+						rel="noopener" data-umami-event="source-code-footer"
+						class="text-light"> Website Source Code </a>
 				</p>
 			</div>
 		</div>
