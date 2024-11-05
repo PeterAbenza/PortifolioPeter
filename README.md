@@ -10,8 +10,9 @@ O e-commerce de celulares e Smartphones para o dev.
 ### 2. [StrongPeople]([link_projeto](https://github.com/PeterAbenza/SistemaAulasSpringBoot))
 Este projeto tem como objetivo principal fornecer uma plataforma eficiente e intuitiva para cadastrar e procurar alunos em uma academia.
 
-### 3. [Sistema de Login e Registro](link_projeto)
-Sistema simples de autenticação para demonstração de boas práticas em segurança e organização de código.
+### 3. [JUnit Testing Projects](link_projeto)
+Esses projetos aprimoram o uso de testes unitários com JUnit, buscando uma cobertura de testes superior a 80%.
+
 
 ## 🛠️ Tecnologias
 
