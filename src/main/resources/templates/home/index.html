@@ -14,7 +14,10 @@
 <link
 	href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
 	rel="stylesheet">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <link rel="shortcut icon" href="/img/icon.png" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,13 +27,13 @@
 	<!-- Efeito de partículas -->
 	<div class="splash">
 		<div id="particles-js"></div>
-		<img class="profile-picture" src="/img/p.jpeg"
+		<img class="profile-picture" src="/img/p.png"
 			alt="Imagem de perfil de Peter Abenza" />
 		<h1 style="font-size: 70px">Peter Abenza</h1>
 		<h2>Estudante &amp; Desenvolvedor</h2>
 
-		<div class="socials">
-			<div class="has-tooltip">
+		<div class="socials" id="ds">
+			<div class="has-tooltip animate__animated animate__fadeInDown">
 				<a href="https://github.com/PeterAbenza" target="_blank"
 					rel="noopener" data-umami-event="github-social-hero"> <svg
 						role="img" title="Github">
@@ -39,7 +42,7 @@
 				</a> <span class="tooltip">Github</span>
 			</div>
 
-			<div class="has-tooltip" id="ds">
+			<div class="has-tooltip animate__animated animate__fadeInDown">
 				<a href="https://discord.com/users/927084293262565387"
 					target="_blank" rel="noopener"
 					data-umami-event="discord-social-hero"> <svg role="img"
@@ -49,7 +52,7 @@
 				</a> <span class="tooltip">Discord</span>
 			</div>
 
-			<div class="has-tooltip">
+			<div class="has-tooltip animate__animated animate__fadeInDown">
 				<a href="https://steamcommunity.com/profiles/76561199258825170/"
 					target="_blank" rel="noopener" data-umami-event="steam-social-hero">
 					<svg role="img" title="Steam">
@@ -58,7 +61,7 @@
 				</a> <span class="tooltip">Steam</span>
 			</div>
 
-			<div class="has-tooltip">
+			<div class="has-tooltip animate__animated animate__fadeInDown">
 				<a href="https://www.linkedin.com/in/peterabenza/" target="_blank"
 					rel="noopener" data-umami-event="steam-social-hero"> <svg
 						role="img" title="LinkedIn">
@@ -67,7 +70,7 @@
 				</a> <span class="tooltip">Linkedin</span>
 			</div>
 
-			<div class="has-tooltip">
+			<div class="has-tooltip animate__animated animate__fadeInDown">
 				<a href="https://www.instagram.com/abenzapeter/" target="_blank"
 					rel="noopener" data-umami-event="instagram-social-hero"> <svg
 						role="img" title="Instagram">
@@ -76,7 +79,7 @@
 				</a> <span class="tooltip">Instagram</span>
 			</div>
 
-			<div class="has-tooltip">
+			<div class="has-tooltip animate__animated animate__fadeInDown">
 				<a href="mailto:abenzpeter@gmail.com" target="_blank" rel="noopener"
 					data-umami-event="mail-social-hero"> <svg role="img"
 						title="Email">
@@ -87,7 +90,8 @@
 		</div>
 	</div>
 
-	<div class="section bg-white py-5" id="about-me">
+	<div class="section bg-white py-5" id="about-me" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+	
 		<div class="container ">
 			<p class="h4 font-weight-bold">Olá!</p>
 			<p class="lead">
@@ -99,16 +103,16 @@
 		</div>
 	</div>
 
-	<div class="text-center my-4" id="portfolio">
+	<div class="text-center my-4" id="portfolio" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 		<h2 class="section-title"
 			style="color: white; font-size: 40px; padding: 40px;">Portfolio</h2>
 	</div>
 
 
 
-	<div class="section" style="background-color: white;">
+	<div class="section" style="background-color: white;" >
 
-		<div class="container mt-5"
+		<div class="container mt-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom"
 			style="padding-top: 100px; padding-bottom: 100px;">
 			<h3 class="text-center mb-5">My Top Projects</h3>
 
@@ -118,12 +122,12 @@
 					<div
 						class="col-md-3 d-flex align-items-center justify-content-center">
 						<img alt="Projeto DevPhone" src="/img/logo_gama.png"
-							class="img-fluid rounded" width="240" height="240">
+							class="img-fluid rounded" width="220" height="220">
 					</div>
 					<div class="col-md-9">
 						<div class="timeline-element-content bg-light p-3 rounded">
 							<h4>DevPhone</h4>
-							<h5>E-commerce App for Tech Enthusiasts</h5>
+							<h5>E-commerce para Entusiastas de Tecnologia</h5>
 							<p>Um e-commerce especializado em celulares e smartphones,
 								desenvolvido para atender as necessidades de desenvolvedores e
 								entusiastas da tecnologia. Este projeto proporciona uma
@@ -141,13 +145,13 @@
 				<div class="row">
 					<div
 						class="col-md-3 d-flex align-items-center justify-content-center">
-						<img alt="Projeto Fit" src="/img/fit.png"
-							class="img-fluid rounded" width="240" height="240">
+						<img alt="Projeto Fit" src="/img/fit.jpg"
+							class="img-fluid rounded" width="210" height="210">
 					</div>
 					<div class="col-md-9">
 						<div class="timeline-element-content bg-light p-3 rounded">
-							<h4>StrongPeople</h4>
-							<h5>Gym Management Platform</h5>
+							<h4>Fitness</h4>
+							<h5>Plataforma de Gerenciamento de Academia</h5>
 							<p>Este projeto fornece uma plataforma intuitiva para
 								cadastro e busca de alunos em academias. Com uma interface
 								prática e eficiente, facilita o gerenciamento de dados e o
@@ -159,29 +163,91 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<!-- JUnit Projects -->
-			<div class="timeline-element mb-4">
-				<div class="row">
-					<div
-						class="col-md-3 d-flex align-items-center justify-content-center">
-						<img alt="Projeto JUnit" src="/img/junit.jpg"
-							class="img-fluid rounded" width="240" height="240">
-					</div>
-					<div class="col-md-9">
-						<div class="timeline-element-content bg-light p-3 rounded">
-							<h4>JUnit Testing Projects</h4>
-							<h5>Garantindo a Qualidade e Confiabilidade do Código</h5>
-							<p>Esses projetos aprimoram o uso de testes unitários com
-								JUnit, buscando uma cobertura de testes superior a 80%. Isso
-								assegura a qualidade do código, detecção de erros e
-								confiabilidade ao longo do desenvolvimento.</p>
-							<a href="https://github.com/PeterAbenza/JUnitProjects"
-								target="_blank" rel="noopener" class="btn btn-light">Visit
-								Github</a>
+
+
+
+		<div class="section">
+			<div class="container mt-5" style="padding-bottom: 100px;">
+				<h3 class="text-center mb-4">Skills</h3>
+
+				<!-- Skills -->
+
+				<div class="timeline-element mb-3">
+					<div class="row align-items-center">
+						<div class="col-md-2 d-flex justify-content-center">
+							<img alt="Projeto JUnit" src="/img/java.png"
+								class="img-fluid rounded" width="100" height="100">
+						</div>
+						<div class="col-md-10">
+							<div class="timeline-element-content bg-light p-2 rounded">
+								<h5 class="mb-1">Java</h5>
+								<p class="mb-2 small text-muted">Sólida experiência em Java,
+									com ênfase em desenvolvimento orientado a objetos (OO). Criação
+									de sistemas robustos, eficientes e de fácil manutenção.</p>
+							</div>
 						</div>
 					</div>
 				</div>
+
+
+				<div class="timeline-element mb-3">
+					<div class="row align-items-center">
+						<div class="col-md-2 d-flex justify-content-center">
+							<img alt="Projeto JUnit" src="/img/SpringBoot.png"
+								class="img-fluid rounded" width="120" height="120">
+						</div>
+						<div class="col-md-10">
+							<div class="timeline-element-content bg-light p-2 rounded">
+								<h5 class="mb-1">Spring boot</h5>
+								<p class="mb-2 small text-muted">Experiência no
+									desenvolvimento de aplicações robustas utilizando Spring Boot.
+									Habilidades em gerenciamento de banco de dados com
+									JPA/Hibernate e implementação de soluções eficientes e
+									escaláveis.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-element mb-3">
+					<div class="row align-items-center">
+						<div class="col-md-2 d-flex justify-content-center">
+							<img alt="Projeto JUnit" src="/img/database.png"
+								class="img-fluid rounded" width="60" height="60">
+						</div>
+						<div class="col-md-10">
+							<div class="timeline-element-content bg-light p-2 rounded">
+								<h5 class="mb-1">Bancos de Dados</h5>
+								<p class="mb-2 small text-muted">Experiência no
+									gerenciamento e manipulação de bancos de dados relacionais
+									(MySQL, PostgreSQL) e não relacionais (MongoDB). Habilidade em
+									modelagem de dados, otimização de consultas e integração
+									eficiente com aplicações, garantindo a consistência e a
+									performance.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-element mb-3">
+					<div class="row align-items-center">
+						<div class="col-md-2 d-flex justify-content-center">
+							<img alt="Projeto JUnit" src="/img/juni.png"
+								class="img-fluid rounded" width="100" height="100">
+						</div>
+						<div class="col-md-10">
+							<div class="timeline-element-content bg-light p-2 rounded">
+								<h5 class="mb-1">JUnit Testing Projects</h5>
+								<p class="mb-2 small text-muted">Foco em qualidade e
+									confiabilidade do código com cobertura de testes superior a
+									80%.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
@@ -190,7 +256,7 @@
 			<div class="timeline">
 
 				<!-- Item da linha do tempo 4 -->
-				<div class="timeline-item">
+				<div class="timeline-item" data-aos="fade-right">
 					<div class="timeline-content">
 						<h1>Ciência da Computação</h1>
 						<h4>Início da Graduação</h4>
@@ -207,9 +273,9 @@
 					<div class="timeline-badge"></div>
 				</div>
 
-				<!-- Item da linha do tempo 4 -->
-				<div class="timeline-item">
-					<div class="timeline-content">
+				<!-- Item da linha do tempo 3 -->
+				<div class="timeline-item" data-aos="fade-left">
+					<div class="timeline-content" >
 						<h1>Programação em Java</h1>
 						<h4>Início da minha jornada em programação Java</h4>
 						<p>Após me familiarizar melhor com a área de tecnologia,
@@ -225,7 +291,7 @@
 				</div>
 
 				<!-- Item da linha do tempo 2 -->
-				<div class="timeline-item">
+				<div class="timeline-item" data-aos="fade-right">
 					<div class="timeline-content">
 						<h1>Aprimoramento</h1>
 						<h4>Prática das habilidades adquiridas no curso Full Stack</h4>
@@ -240,7 +306,7 @@
 				</div>
 
 				<!-- Item da linha do tempo 1 -->
-				<div class="timeline-item">
+				<div class="timeline-item" data-aos="fade-left">
 					<div class="timeline-content">
 						<h1>Gama Academy</h1>
 						<h4>Especialização em Full Stack</h4>
@@ -258,29 +324,6 @@
 				</div>
 			</div>
 		</div>
-
-
-		<div class="container mt-5" style="padding-bottom: 150px;">
-			<h2 class="mb-4">Formulário de Contato</h2>
-
-			<form action="/InsertContato" method="POST" th:object="${contato}">
-				<div class="mb-3">
-					<label for="email" class="form-label">Email</label> <input
-						type="email" class="form-control" id="email" name="email"
-						placeholder="Digite seu email" th:field="*{email}" required>
-				</div>
-
-				<div class="mb-3">
-					<label for="assunto" class="form-label">Assunto</label>
-					<textarea class="form-control" id="assunto" name="assunto" rows="4"
-						placeholder="Digite o assunto" th:field="*{assunto}" required></textarea>
-				</div>
-
-				<button type="submit" class="btn btn-primary">Enviar</button>
-			</form>
-
-		</div>
-
 	</div>
 
 	_
@@ -294,5 +337,10 @@
 	<script
 		src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script type="module" src="/js/particles.js"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 </html>
