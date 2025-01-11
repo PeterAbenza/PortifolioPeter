@@ -31,7 +31,6 @@ body {
 	width: 130px; /* largura da imagem de perfil */
 	height: 130px; /* altura da imagem de perfil */
 	margin-bottom: 30px; /* espaço abaixo da imagem de perfil */
-	
 }
 
 h1 {
@@ -128,18 +127,18 @@ h2 {
 	color: #6c757d;
 }
 
-
 @media ( max-width : 767.98px) {
+	.profile-picture {
+		margin-top: 150px;
+	}
 	.timeline-content {
 		width: 100%;
 	}
-	
 	.timeline-item {
-        border: none;
-        position: relative; 
-    }
-    
-    .timeline-badge {
-        display: none; 
-    }
+		border: none;
+		position: relative;
+	}
+	.timeline-badge {
+		display: none;
+	}
 }
