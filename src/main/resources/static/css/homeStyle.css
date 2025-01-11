@@ -26,7 +26,8 @@ body {
 }
 
 .profile-picture {
-	border-radius: 50%;
+	
+	border-radius: 10%;
 	object-fit: cover;
 	width: 130px; /* largura da imagem de perfil */
 	height: 130px; /* altura da imagem de perfil */
