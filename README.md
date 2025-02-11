@@ -9,9 +9,8 @@ LINK:  https://peterabenza-ca387add0e0a.herokuapp.com/
 ### 1. [DevPhone]([link_projeto](https://github.com/PeterAbenza/DevPhone))
 O e-commerce de celulares e Smartphones para o dev.
 
-### 2. [StrongPeople]([link_projeto](https://github.com/PeterAbenza/SistemaAulasSpringBoot))
-Este projeto tem como objetivo principal fornecer uma plataforma eficiente e intuitiva para cadastrar e procurar alunos em uma academia.
-
+### 2. [Dashboard de Desempenho]([link_projeto](https://github.com/PeterAbenza/SistemaAulasSpringBoot))
+Dashboard oferece uma visão abrangente e em tempo real dos principais indicadores de desempenho do seu negócio ou projeto.
 
 ## 🛠️ Tecnologias
 
