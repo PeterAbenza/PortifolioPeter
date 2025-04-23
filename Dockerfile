@@ -1,6 +1,10 @@
 # Use uma imagem base com Java 11
 FROM openjdk:11-jdk
 
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV PATH=$JAVA_HOME/bin:$PATH
+
+
 # Instale o Maven
 RUN apt-get update && apt-get install -y maven
 
