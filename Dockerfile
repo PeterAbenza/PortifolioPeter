@@ -4,7 +4,6 @@ FROM openjdk:11-jdk
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 ENV PATH=$JAVA_HOME/bin:$PATH
 
-
 # Instale o Maven
 RUN apt-get update && apt-get install -y maven
 
@@ -15,7 +14,7 @@ COPY . /app
 WORKDIR /app
 
 # Execute o comando para compilar o projeto
-RUN ./mvnw clean package
+RUN mvn clean package -X
 
 # Comando para iniciar o aplicativo
 CMD ["java", "-jar", "target/PortifolioPeter-0.0.1-SNAPSHOT.jar"]
