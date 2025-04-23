@@ -1,6 +1,10 @@
 # Use uma imagem base com Java 11
 FROM openjdk:11-jdk
 
+# Defina JAVA_HOME
+ENV JAVA_HOME /usr/local/openjdk-11
+ENV PATH $JAVA_HOME/bin:$PATH
+
 # Copie o código do seu projeto para dentro do container
 COPY . /app
 
