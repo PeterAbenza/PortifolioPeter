@@ -1,20 +1,15 @@
-# Use uma imagem base com Java 11
-FROM openjdk:11-jdk
+FROM openjdk:17-jdk
 
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-ENV PATH=$JAVA_HOME/bin:$PATH
+RUN apt-get update
+RUN apt-get install openjdk:17-jdk -y
+COPY . .
 
-# Instale o Maven
-RUN apt-get update && apt-get install -y maven
+RUN apt-get install -y maven
+RUN mvn clean install 
 
-# Copie o código do seu projeto para dentro do container
-COPY . /app
+EXPOSE 8080
 
-# Defina o diretório de trabalho
-WORKDIR /app
-
-# Execute o comando para compilar o projeto
-RUN mvn clean package -X
+COPY --from=build /target/PortifolioPeter-0.0.1-SNAPSHOT.jar
 
 # Comando para iniciar o aplicativo
 CMD ["java", "-jar", "target/PortifolioPeter-0.0.1-SNAPSHOT.jar"]
