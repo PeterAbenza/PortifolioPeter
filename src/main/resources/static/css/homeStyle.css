@@ -11,6 +11,7 @@ body {
 	background-color: #1C1C1C;
 }
 
+
 .splash {
 	display: flex;
 	flex-direction: column;
@@ -25,13 +26,21 @@ body {
 	margin-bottom: 300px;
 }
 
+.profile-overlay {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999; /* garante que fique na frente de tudo */
+  max-width: 120px; /* ajuste o tamanho como quiser */
+  pointer-events: none; /* permite clicar nos elementos por baixo, se quiser */
+}
+
+
 .profile-picture {
 	
-	border-radius: 50%;
-	object-fit: cover;
-	width: 130px; /* largura da imagem de perfil */
-	height: 130px; /* altura da imagem de perfil */
-	margin-bottom: 30px; /* espaço abaixo da imagem de perfil */
+	
+	width: 220px; /* largura da imagem de perfil */
+	height: 190px; /* altura da imagem de perfil */
 }
 
 h1 {
