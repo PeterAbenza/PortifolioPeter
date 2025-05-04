@@ -10,32 +10,26 @@
 <link rel="stylesheet" href="css/homeStyle.css">
 </head>
 <body>
-	<header th:fragment="cabecalho"  style="margin-bottom: 10vh;">
-		<nav class="navbar navbar-expand-lg navbar-light"
-		        style="background: #DCDCDC;">
-			<div class="container-fluid">
-				<a class="navbar-brand" th:href="@{/}"
-					style="font-size: 20px;">Peter Abenza</a>
-				  <button class="navbar-toggler" style="outline: none; box-shadow: none; -webkit-tap-highlight-color: transparent;"
-					                   type="button" data-toggle="collapse" data-target="#navMobile">
-						   <span class="navbar-toggler-icon">
-					               <i class="fas fa-bars" style="font-size: 20px; color: white;"></i>
-					       </span>
-				  </button>
-			</div>
+	<header th:fragment="cabecalho" style="margin-bottom: 10vh; background: transparent;">
+	    <nav class="navbar navbar-expand-lg navbar-light" style="background: transparent;">
+	        <div class="container-fluid">
+	            <a class="navbar-brand" th:href="@{/}" style="font-size: 20px; color: #fff;">Peter Abenza</a>
+	            <button class="navbar-toggler" style="outline: none; box-shadow: none; -webkit-tap-highlight-color: transparent;"
+	                    type="button" data-toggle="collapse" data-target="#navMobile">
+	                <span class="navbar-toggler-icon">
+	                    <i class="fas fa-bars" style="font-size: 20px; color: white;"></i>
+	                </span>
+	            </button>
+	        </div>
 
-			<div id="navMobile"
-				class="navbar-collapse collapse justify-content-end">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="btn-nav nav-item nav-link"
-						href="/">HOME</a></li>
-					<li class="nav-item"><a class="btn-nav nav-item nav-link"
-						href="#contact">CONTACT</a></li>
-					<li class="nav-item"><a class="btn-nav nav-item nav-link"
-						href="#timeline">TIMELINE</a></li>
-				</ul>
-			</div>
-		</nav>
+	        <div id="navMobile" class="navbar-collapse collapse justify-content-end">
+	            <ul class="navbar-nav" >
+	                <li class="nav-item"><a class="btn-nav nav-item nav-link" style="color: white;" href="/">HOME</a></li>
+	                <li class="nav-item"><a class="btn-nav nav-item nav-link" style="color: white;" href="#contact">CONTACT</a></li>
+	                <li class="nav-item"><a class="btn-nav nav-item nav-link" style="color: white;" href="#timeline">TIMELINE</a></li>
+	            </ul>
+	        </div>
+	    </nav>
 	</header>
 
 
