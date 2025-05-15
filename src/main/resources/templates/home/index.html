@@ -21,17 +21,22 @@
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.css">
 </head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
 <body data-scroll-container>
 
 	<div th:replace="fragmentos/frag :: cabecalho"></div>
-
+	
+	<a href="https://wa.me/5517992745765?text=Ol%C3%A1%21%20Espero%20que%20esteja%20bem.%20Acabei%20de%20conhecer%20seu%20trabalho%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20desenvolvimento%20de%20um%20site.%20Poderia%2C%20por%20favor%2C%20me%20fornecer%20mais%20detalhes%3F" target="_blank" class="whatsapp-fixo" aria-label="Fale comigo no WhatsApp" rel="noopener noreferrer">
+	    <i class="fab fa-whatsapp" style="font-size: 28px; color: white;"></i>
+	</a>
 
 	<!-- Efeito de partículas -->
-	<div class="splash" style="color: #DCDCDC;">
+	<div class="splash">
 		<div id="particles-js"></div>
 		<img class="profile-picture" src="/img/tt.gif"
 			alt="Imagem de perfil de Peter Abenza" />
-		<h1 style="font-size: 70px; color: #DCDCDC;">Peter Abenza</h1>
+		<h1 style="font-size: 70px;">Peter Abenza</h1>
 		<h2 >Estudante &amp; Desenvolvedor</h2>
 
 		<div class="socials" id="ds">
@@ -93,16 +98,15 @@
 		</div>
 	</div>
 
-	<div class="section py-5" style="background-color: #DCDCDC;" id="about-me" data-aos="fade-up"
+	<div class="section py-5" style="background-color: white;" id="about-me" data-aos="fade-up"
 		data-aos-anchor-placement="center-bottom">
 
 		<div class="container ">
 			<p class="h4 font-weight-bold">Olá!</p>
 			<p class="lead">
-				Sou Peter Abenza, um apaixonado por programação, levantamento de
-				peso e um bom jogo! <br> Além disso, estou sempre em busca de
-				aprender algo novo. Fique à vontade para entrar em contato ou
-				conferir meus trabalhos anteriores logo abaixo.
+				Sou Peter Abenza, desenvolvedor com sólida experiência na criação de soluções eficientes, escaláveis e voltadas para resultados.
+				Tenho paixão por tecnologia, gosto de enfrentar novos desafios e estou sempre em busca de aprimoramento contínuo.
+				Fique à vontade para entrar em contato ou conferir alguns dos meus trabalhos logo abaixo.
 			</p>
 		</div>
 	</div>
@@ -110,91 +114,52 @@
 	<div class="text-center my-4" id="portfolio" data-aos="fade-up"
 		data-aos-anchor-placement="center-bottom">
 		<h2 class="section-title"
-			style="color: #DCDCDC; font-size: 40px; padding: 40px;">Portfolio</h2>
+				style="color: white; font-size: 40px; padding: 40px;">Projetos</h2>
 	</div>
 
 
 
-	<div class="section" style="background-color: #DCDCDC;">
+	
+	  <section class="container-fluid py-5" id="planos">
+	    <div class="row justify-content-center" style="padding-bottom: 30px">
+	      
+	      <!-- Projeto DescomplicaDoc -->
+	      <div class="col-md-4 mb-4">
+	        <div class="card h-100 shadow text-white rounded-4 overflow-hidden" style="border-radius: 16px; border-color: #FFD700;" data-aos="zoom-in" data-aos-delay="400">
+	          <div class="card-body" style="background-color: #292929;">
+	            <div class="text-center">
+	              <img src="/img/Descom.jpg" class="img-fluid mb-3 rounded-4" alt="DescomplicaDoc" style="width: 100%; border-radius: 16px;">
+	              <h5 class="fw-bold text-black">DescomplicaDoc</h5>
+	              <p class="text-black">
+	                Plataforma inovadora para upload e análise de documentos PDF, utilizando inteligência artificial para explicar conteúdos complexos de forma simples, clara e eficiente.
+	              </p>
+	              <a href="https://github.com/PeterAbenza/DescomplicaDoc" target="_blank" class="btn btn-warning mt-4 text-white">GitHub</a>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
 
-		<div class="container mt-5" data-aos="fade-up"
-			data-aos-anchor-placement="center-bottom"
-			style="padding-top: 100px; padding-bottom: 100px;">
-			<h3 class="text-center mb-5">My Top Projects</h3>
+	      <!-- Projeto ScanLocation -->
+	      <div class="col-md-4 mb-4">
+	        <div class="card h-100 shadow text-white rounded-4 overflow-hidden" style="border-radius: 16px; border-color: #FFD700;" data-aos="zoom-in" data-aos-delay="600">
+	          <div class="card-body" style="background-color: #292929; ">
+	            <div class="text-center">
+	              <img src="/img/Location.jpg" class="img-fluid mb-3 rounded-4" alt="ScanLocation" style="width: 100%; border-radius: 16px;">
+	              <h5 class="fw-bold text-black">ScanLocation</h5>
+	              <p class="text-black">
+	                Sistema de rastreamento em tempo real com envio de alertas via Telegram, facilitando o monitoramento contínuo de veículos, objetos e ativos importantes.
+	              </p>
+	              <a href="https://github.com/PeterAbenza/ScanLocation" target="_blank" class="btn btn-warning mt-4 text-white">GitHub</a>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
 
-			<!-- DescomplicaDoc Project -->
-			<div class="timeline-element mb-4">
-				<div class="row">
-					<div class="col-md-3 d-flex align-items-center justify-content-center">
-						<img alt="DescomplicaDoc Logo" src="/img/logoSolo.png"
-							class="img-fluid rounded" width="160" height="210" >
-					</div>
-					<div class="col-md-9">
-						<div class="timeline-element-content p-3 rounded">
-							<h4>DescomplicaDoc</h4>
-							<h5>Tradutor de Burocracia — Entenda o que você assina</h5>
-							<p>DescomplicaDoc é um microserviço inovador que torna documentos difíceis como contratos, leis, termos e editais compreensíveis para todos. 
-							O usuário envia o PDF, e nossa IA responde com um resumo claro e sugestões de ação, como: 
-							<span class="fst-italic">“Este contrato é um financiamento com parcelas fixas e multa por atraso...”</span>.</p>
-
-							<p>Modelos de cobrança incluem: freemium com limite de documentos, pagamento avulso por PDF analisado e plano social gratuito para pessoas de baixa renda.</p>
-
-							<a href="https://github.com/PeterAbenza/DescomplicaDoc" target="_blank" rel="noopener" class="btn">Visit Github</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- QuizMaster -->
-			<div class="timeline-element mb-4">
-				<div class="row">
-					<div class="col-md-3 d-flex align-items-center justify-content-center">
-						<img alt="Projeto QuizMaster" src="/img/logo-closed.png"
-							class="img-fluid rounded" width="210" height="210">
-					</div>
-					<div class="col-md-9">
-						<div class="timeline-element-content p-3 rounded">
-							<h4>QuizMaster</h4>
-							<h5>Plataforma Interativa de Quizzes com Administração Personalizada</h5>
-							<p>QuizMaster é uma plataforma de quizzes educacionais e personalizados, cursos e criadores de conteúdo. 
-							Usuários podem participar como jogadores, enquanto administradores criam, gerenciam e analisam resultados em tempo real.</p>
-
-							<p>O sistema foi desenvolvido com <strong>Spring Boot</strong>, autenticação por papéis (admin e jogador) e banco de dados relacional. 
-							A interface é responsiva e intuitiva, com foco em usabilidade e performance.</p>
-
-							<a href="https://github.com/PeterAbenza/QuizMaster" target="_blank" rel="noopener" class="btn">Visite o Github</a>
-						</div>
-					</div>
-				</div>
-			</div>
+	    </div>
+	  </section>
 
 
-			<!-- Projeto ScanLocation -->
-			<div class="timeline-element mb-4">
-				<div class="row">
-					<div class="col-md-3 d-flex align-items-center justify-content-center">
-						<img alt="Projeto ScanLocation" src="/img/scabloc.png"
-							class="img-fluid rounded" width="210" height="210">
-					</div>
-					<div class="col-md-9">
-						<div class="timeline-element-content p-3 rounded">
-							<h4>ScanLocation</h4>
-							<h5>Rastreamento em Tempo Real com Envio via Telegram</h5>
-							<p>ScanLocation é uma aplicação web que captura a localização em tempo real do usuário e envia diretamente para um bot no Telegram. 
-							O sistema é ideal para quem precisa acompanhar rotas, movimentações ou monitoramentos em tempo real de forma simples, gratuita e sem depender de serviços pagos.</p>
-
-							<p>Projetado para ser leve e funcional, é perfeito para uso pessoal, logístico ou emergencial, utilizando apenas navegador e conexão com o Telegram.</p>
-
-							<a href="https://github.com/PeterAbenza/ScanLocation" target="_blank"
-								rel="noopener" class="btn">Visite o Github</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
+	  <div class="section" style="background-color: white; padding-top: 20px;">
 		<div class="section">
 			<div class="container mt-5" style="padding-bottom: 100px;">
 				
@@ -203,9 +168,6 @@
 				         style="position: absolute; width: 100px; height: auto; transform: translateX(-70px);"/>
 				    <h3 class="mb-0" style="font-size: 50px;">Skills</h3>
 				</div>
-
-
-				
 
 				<!-- Skills -->
 
@@ -231,7 +193,7 @@
 					<div class="row align-items-center" >
 						<div class="col-md-2 d-flex justify-content-center" >
 							<img alt="Projeto JUnit" src="/img/SpringBoot.png"
-								class="img-fluid rounded" width="120" height="120" style="background-color: #DCDCDC">
+								class="img-fluid rounded" width="120" height="120" >
 						</div>
 						<div class="col-md-10">
 							<div class="timeline-element-content p-2 rounded">
@@ -266,7 +228,7 @@
 					</div>
 				</div>
 
-				<div class="timeline-element mb-3" style="background-color: #DCDCDC" >
+				<div class="timeline-element mb-3">
 					<div class="row align-items-center">
 						<div class="col-md-2 d-flex justify-content-center">
 							<img alt="Projeto JUnit" src="/img/juni.png"
@@ -295,7 +257,7 @@
 
 				<!-- Item da linha do tempo 6 -->
 				<div class="timeline-item" data-aos="fade-left">
-					<div class="timeline-content" style="background-color: #DCDCDC">
+					<div class="timeline-content" >
 						<h1>Novas Linguagens</h1>
 						<h4>Facilidade em Aprender com Base Sólida</h4>
 						<p>Em abril de 2025, entrei em uma nova fase de aprendizado, explorando diferentes linguagens e abordagens de desenvolvimento. Percebi que, com uma base bem estruturada em lógica e estrutura de código, aprender novas tecnologias se tornou mais rápido e natural. Estou aproveitando esse momento para expandir minha visão como desenvolvedor e me desafiar com projetos cada vez mais variados.</p>
@@ -307,7 +269,7 @@
 
 				<!-- Item da linha do tempo 5 -->
 				<div class="timeline-item" data-aos="fade-right">
-					<div class="timeline-content" style="background-color: #DCDCDC">
+					<div class="timeline-content" >
 						<h1>Explorando o Mundo do Inglês</h1>
 						<h4>Estudos em Inglês</h4>
 						<p>iniciei minha graduação em Ciência da Computação e, junto
@@ -328,7 +290,7 @@
 
 				<!-- Item da linha do tempo 4 -->
 				<div class="timeline-item" data-aos="fade-left">
-					<div class="timeline-content" style="background-color: #DCDCDC">
+					<div class="timeline-content" >
 						<h1>Ciência da Computação</h1>
 						<h4>Início da Graduação</h4>
 						<p>Em novembro de 2024, iniciei minha graduação em Ciência da
@@ -346,7 +308,7 @@
 
 				<!-- Item da linha do tempo 3 -->
 				<div class="timeline-item" data-aos="fade-right">
-					<div class="timeline-content" style="background-color: #DCDCDC">
+					<div class="timeline-content">
 						<h1>Programação em Java</h1>
 						<h4>Início da minha jornada em programação Java</h4>
 						<p>Após me familiarizar melhor com a área de tecnologia,
@@ -363,7 +325,7 @@
 
 				<!-- Item da linha do tempo 2 -->
 				<div class="timeline-item" data-aos="fade-left">
-					<div class="timeline-content" style="background-color: #DCDCDC">
+					<div class="timeline-content" >
 						<h1>Aprimoramento</h1>
 						<h4>Prática das habilidades adquiridas no curso Full Stack</h4>
 						<p>Após concluir o curso Full Stack, dediquei um tempo para
@@ -378,7 +340,7 @@
 
 				<!-- Item da linha do tempo 1 -->
 				<div class="timeline-item" data-aos="fade-right">
-					<div class="timeline-content" style="background-color: #DCDCDC">
+					<div class="timeline-content" >
 						<h1>Gama Academy</h1>
 						<h4>Especialização em Full Stack</h4>
 						<p>Decidi intensificar meus estudos na área de tecnologia e me
