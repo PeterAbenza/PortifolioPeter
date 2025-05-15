@@ -20,6 +20,32 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.css">
+	<style>
+		.whatsapp-fixo {
+		    position: fixed;
+		    bottom: 20px;
+		    right: 20px;
+		    z-index: 9999;
+		    width: 60px;
+		    height: 60px;
+		    background-color: #25D366;
+		    border-radius: 50%;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    cursor: pointer;
+		    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+		    transition: transform 0.2s ease-in-out;
+
+		    text-decoration: none !important;
+		    border: none !important;
+		    outline: none !important;
+		}
+
+		.whatsapp-fixo:hover {
+		    transform: scale(1.1);
+		}
+	</style>
 </head>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 
@@ -28,7 +54,7 @@
 	<div th:replace="fragmentos/frag :: cabecalho"></div>
 	
 	<a href="https://wa.me/5517992745765?text=Ol%C3%A1%21%20Espero%20que%20esteja%20bem.%20Acabei%20de%20conhecer%20seu%20trabalho%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20desenvolvimento%20de%20um%20site.%20Poderia%2C%20por%20favor%2C%20me%20fornecer%20mais%20detalhes%3F" target="_blank" class="whatsapp-fixo" aria-label="Fale comigo no WhatsApp" rel="noopener noreferrer">
-	    <i class="fab fa-whatsapp" style="font-size: 28px; color: white;">a</i>
+	    <i class="fab fa-whatsapp" style="font-size: 28px; color: white;"></i>
 	</a>
 
 	<!-- Efeito de partículas -->
