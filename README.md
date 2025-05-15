@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu portfólio! Aqui você encontra uma coleção dos meus principais projetos e contribuições na área de desenvolvimento de software, com o objetivo de mostrar minhas habilidades em diferentes tecnologias e compartilhar meu progresso e aprendizados.
 
-LINK:  https://peterabenza-ca387add0e0a.herokuapp.com/
+LINK:  https://www.peterabenza.com.br/
 
 ## 📂 Projetos em Destaque
 
